@@ -6,8 +6,8 @@ package uvsq.pglp_3_5;
  */
 public class App 
 {
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
-    }
+	  public static void main(String[] args) {
+		    ClassMetier metier = new ClassMetier();
+		    metier.methodeMetier();
+		  }
 }
